@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "wrappy",
-    "slug": "wrappy",
+    "name": "PASINO.ch",
+    "slug": "pasinochwrapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.oni59167.pasinochwrapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "87ca95f1-2ed6-4e4d-a0e9-091eac2ac76e"
+      }
     }
   }
 }
